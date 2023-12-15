@@ -1,6 +1,25 @@
-.loginBox {}
-.loginBox p {}
-.loginBox .loginGo {}
+.loginBox {
+    background-color: #f1f1f1;
+    width: 400px; height: 150px; margin: 0 auto;
+    padding: 20px 20px; margin-top: 100px;
+    border: 1px solid #ddd;
+}
+.loginBox p {font-size: 0.8rem;}
+.loginBox .loginGo {
+    background-color: #19ce60;
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+.loginBox .loginSub {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
 .loginBox .idpwSearch {}
-.loginBox .idpwSearch a {}
-.loginBox .idpwSearch .join {}
+.loginBox .idpwSearch a {font-size: 0.8rem;}
+.loginBox .loginSub .join {font-size: 0.8rem;}
