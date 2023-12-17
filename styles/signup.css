@@ -1,0 +1,77 @@
+.wrap {width: 460px; margin: 0 auto;}
+.wrap h1 {text-align: center; margin: 50px 0;}
+.wrap h1 a {}
+.wrap h1 a img {width: 250px; height: 50px;}
+.wrap .container {}
+.wrap .container #signUp {}
+.wrap .container #signUp fieldset {}
+.wrap .container #signUp fieldset dl {}
+.wrap .container #signUp fieldset dl dt {
+    padding: 0; font-size: 0.875; font-weight: 500; margin: 20px 0 10px 0;
+} /* 아이디, 비번, 비번재확인, 본인확인 이메일  */
+.wrap .container #signUp fieldset dl dd {
+    border: 1px solid #eee;
+    width: 450px; height: 55px;
+    padding: 20px
+}
+.wrap .container #signUp fieldset dl dd input {width: 75%;}
+.wrap .container #signUp fieldset dl dd span {}
+/* 생년월일 */
+.wrap .container #signUp fieldset dl .birth {
+    border: none; padding: 0; display: inline-block;
+}
+.wrap .container #signUp fieldset dl .birth input , select {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center; width: 145px; height: 55px;
+    margin-right: 2.5px; padding-left: 15px;
+}
+.wrap .container #signUp fieldset dl .birth input {
+    border: 1px solid #eee; display: inline;
+}
+.wrap .container #signUp fieldset dl .birth select {
+    border: 1px solid #eee; display: inline;
+}
+.wrap .container #signUp fieldset dl .birth select option {}
+/* 성별 */
+.wrap .container #signUp fieldset dl .gender {
+    border: none; padding: 0; display: inline-block;
+}
+.wrap .container #signUp fieldset dl .gender select {
+    width: 100%;
+    border: 1px solid #eee;
+}
+.wrap .container #signUp fieldset dl .gender select option {}
+/* 휴대전화 */
+.wrap .container #signUp fieldset dl .userPhone {
+    border: none; padding: 0; display: inline-block;
+    border: 1px solid #eee; margin-bottom: 10px;
+}
+.wrap .container #signUp fieldset dl .userPhone select {}
+.wrap .container #signUp fieldset dl .userPhone select option {}
+.wrap .container #signUp fieldset dl .userPhone1 {
+    border: none; padding: 0; display: inline-block;
+    margin-bottom: 10px;
+}
+.wrap .container #signUp fieldset dl .userPhone1 input {
+    border: 1px solid #eee; width: 330px; height: 55px;
+    padding-left: 15px;
+}
+.wrap .container #signUp fieldset dl .userPhone1 #agreedBtn {
+    background-color: #19ce60; color: #fff;
+    width: 150; height: 55px;
+    padding: 0 15px;
+    font-size: 0.75rem;
+    margin-left: 13px;
+}
+.wrap .container #signUp fieldset dl .userPhone2 {
+    background-color: #eee; border: 1px solid #aaa;
+}
+.wrap .container #signUp fieldset dl .userPhone2 .userPhone2_1 {}
+/* 가입하기 */
+.wrap .container #signUp fieldset .sign {text-align: center; margin-top: 15px;}
+.wrap .container #signUp fieldset .sign .signUp {
+    width: 450px; height: 55px;
+    background-color: #19ce60; color: #fff;
+    font-size: 1.188rem; font-weight: 500;
+}
