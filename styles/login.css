@@ -1,0 +1,67 @@
+.wrap {width: 750px; margin: 0 auto; text-align: center;}
+.wrap .langSelect {text-align: right;}
+.wrap .langSelect .lang {
+    border: 1px solid #aaa;
+    padding: 3px 8px;
+}
+.wrap .langSelect .lang option {}
+.wrap h1 {width: 750px;}
+.wrap h1 a {}
+.wrap h1 a img {
+    width: 250px; height: 50px;
+    margin: 50px 0;
+}
+.wrap .container {}
+.wrap .container #loginFrm {}
+.wrap .container #loginFrm fieldset {
+    display: flex; flex-flow: column nowrap;
+    justify-content: space-between; align-items: center;
+}
+.wrap .container #loginFrm fieldset .id {
+    border: 1px solid #ccc;
+    width: 450px; height: 60px;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+}
+.wrap .container #loginFrm fieldset .pw {
+    border: 1px solid #ccc;
+    width: 450px; height: 60px;
+    padding: 20px 15px;
+    margin-bottom: 10px;
+}
+.wrap .container #loginFrm fieldset a .login {
+    background-color: #19ce60;
+    color: #fff;
+    width: 450px; height: 60px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.wrap .container .loginBtn {
+    width: 450px; margin: 0 auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 20px;
+}
+.wrap .container .loginBtn p {float: left;}
+.wrap .container .loginBtn p .chkBox {}
+.wrap .container .loginBtn .loginRight {float: right;}
+.wrap .container .loginBtn .loginRight a:last-child {text-decoration: underline;}
+.wrap .container .loginBtn .loginRight a {}
+.wrap .container .loginBtn .loginRight span {margin-left: -5px; color: #19ce60; font-weight: 700;}
+.wrap .container .loginBtn .loginRight span::after {
+    content: ''; display: inline-block;
+    width: 1px ; height: 15px;
+    background-color: #aaa;
+    margin: 0 0 0 5px;
+    text-align: center;
+}
+.wrap .container .searchUser {}
+.wrap .container .searchUser a::after {
+    content: ''; display: inline-block;
+    width: 1px ; height: 15px;
+    background-color: #aaa;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+.wrap .container .searchUser a:last-child::after {display: none;}
+.wrap .container .searchUser a {}

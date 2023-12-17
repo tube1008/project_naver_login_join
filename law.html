@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/commons.css">
     <link rel="stylesheet" href="./styles/law.css">
@@ -10,38 +11,80 @@
 </head>
 <body>
     <header>
-        <div class="lang">
-            <select name="langSelect" id="langSelect">
+        <div class="langSelect">
+            <select name="lang" class="lang">
                 <option value="ko">한국어</option>
-                <option value="en">ENGLISH</option>
+                <option value="en">English</option>
             </select>
         </div>
         <h1><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="처음으로 돌아가기"></a></h1>          
     </header>
     <main>
         <div class="container">
-            <form action="#" method="get" id="join">
+            <form action="#" method="get" id="law">
                 <fieldset>
                     <legend class="skip">이용약관 동의 양식</legend>
                     <input type="checkbox" id="chkall">
-                    <label for="chkall">
+                    <label for="chkall" class="agree">
                         이용약관, 개인정보 수집 및 이용, 위치정보 이용약관(선택), 프로모션 안내 메일 수신(선택)에 모두 동의합니다.
                     </label>
-                    <div class="">
-                        <input type="checkbox" id="chkall">
-                        <label for="chkall">
-                            네이버 이용약관 동의(필수)
+                    <div class="mainchk">
+                        <input type="checkbox" class="chk">
+                        <label for="chkall" class="agree1">
+                            네이버 이용약관 동의
+                            <span>(필수)</span>
                         </label>
+                        <div class="textBox">
                             <h2>여러분을 환영합니다.</h2>
-                                <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하  ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
-
-                                <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                            <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하  ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                            <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="mainchk">
+                        <input type="checkbox" class="chk">
+                        <label for="chkall" class="agree1">
+                            개인정보 수집 및 이용에 대한 안내
+                            <span>(필수)</span>
+                        </label>
+                        <a href="#" class="childguide">어린이용 안내</a>
+                        <div class="textBox">
+                            <h2>여러분을 환영합니다.</h2>
+                            <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하  ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                            <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="mainchk">
+                        <input type="checkbox" class="chk">
+                        <label for="chkall" class="agree1">
+                            위치정보 이용약관 동의
+                            <span>(선택)</span>
+                        </label>
+                        <div class="textBox">
+                            <h2>여러분을 환영합니다.</h2>
+                            <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하  ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                            <p>네이버 서비스 및 제품(이하 ‘서비스’)을 이용해 주셔서 감사합니다. 본 약관은 다양한 네이버 서비스의 이용과 관련하여 네이버 서비스를 제공하는 네이버 주식회사(이하 ‘네이버’)와 이를 이용하는 네이버 서비스 회원(이하 ‘회원’) 또는 비회원과의 관계를 설명하며, 아울러 여러분의 네이버 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다.</p>
+                        </div>
+                    </div>
+                    <div class="selectBtn">
+                        <button type="reset" class="resetBtn">취소</button>
+                        <button type="submit" class="signupBtn" ><a href="./signup.html">확인</a></button>
                     </div>
                 </fieldset>
             </form>
-
+            <div class="groupJoin">
+                <p>회사, 동아리 등 단체에서 사용할 ID가 필요하세요?</p>
+                <a href="#">단체 회원 가입</a>
+            </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="link">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a>
+            <a href="#">회원정보 고객센터</a>
+        </div>
+        <address>NAVER Copyright © NAVER Corp. All Rights Reserved.</address>
+    </footer>
 </body>
 </html>

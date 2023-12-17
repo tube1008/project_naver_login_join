@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+    margin: 50px;
+}
+footer .link {
+    
+}
+footer .link a::after {
+    content: ''; display: inline-block;
+    width: 1px ; height: 10px;
+    background-color: #aaa;
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+footer .link a:last-child::after {display: none;}
+footer .link a {font-size: 0.8rem;}
+footer address {font-size: 0.8rem; line-height: 2;}

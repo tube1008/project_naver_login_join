@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/commons.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <title>join</title>
+</head>
+<body>
+    <div class="wrap">
+        <h1><a href="./index.html"><img src="./images/Naver_Logotype.svg.png" alt="메인으로 돌아가기"></a></h1>
+        <div class="container">
+            <form action="#" method="post" id="signUp">
+                <fieldset>
+                    <legend class="skip">가입양식</legend>
+                    <dl>
+                        <dt>아이디</dt>
+                        <dd>
+                            <input type="text" name="userId">
+                            <span>@naver.com</span>
+                        </dd>
+                        <dt>비밀번호</dt>
+                        <dd>
+                            <input type="password" name="userPw">
+                        </dd>
+                        <dt>비밀번호 재확인</dt>
+                        <dd>
+                            <input type="password" name="userPwchk">
+                        </dd>
+                        <dt>이름</dt>
+                        <dd>
+                            <input type="text" name="userName">
+                        </dd>
+                        <dt>생년월일</dt>
+                        <dd class="birth">
+                            <input type="text" name="year" placeholder="년(4)자" maxlength="4">
+                            <select name="month">
+                                <option value="월">월</option>
+                                <option value="month1">1</option>
+                                <option value="month2">2</option>
+                                <option value="month3">3</option>
+                                <option value="month4">4</option>
+                                <option value="month5">5</option>
+                                <option value="month6">6</option>
+                                <option value="month7">7</option>
+                                <option value="month8">8</option>
+                                <option value="month9">9</option>
+                                <option value="month10">10</option>
+                                <option value="month11">11</option>
+                                <option value="month12">12</option>
+                            </select>
+                            <input type="text" name="day" placeholder="일" maxlength="2">
+                        </dd>
+                        <dt>성별</dt>
+                        <dd class="gender">
+                            <select name="gender">
+                                <option value="male">남</option>
+                                <option value="female">여</option>
+                            </select>
+                        </dd>
+                        <dt>본인 확인 이메일<span>선택</span></dt>
+                        <dd>
+                            <input type="text" placeholder="선택입력" name="userMail">
+                        </dd>
+                        <dt>휴대전화</dt>
+                        <dd class="userPhone">
+                            <select name="pCode">
+                                <option value="korea82">대한민국 +82</option>
+                                <option value="hongkong852">홍콩 +852</option>
+                            </select>
+                        </dd>
+                        <dd class="userPhone1">
+                            <input type="text" name="userPhone1">
+                            <button type="button" id="agreedBtn">인증번호 받기</button>
+                        </dd>
+                        <dd class="userPhone2">
+                            <input type="text" name="userPhone2" class="userPhone2_1" placeholder="인증번호 입력하세요">
+                        </dd>
+                    </dl>
+                    <div class="sign">
+                        <button type="submit" class="signUp">가입하기</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+    <footer>
+        <div class="link">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a>
+            <a href="#">회원정보 고객센터</a>
+        </div>
+        <address>NAVER Copyright © NAVER Corp. All Rights Reserved.</address>
+    </footer>
+</body>
+</html>
